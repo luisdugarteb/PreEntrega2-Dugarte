@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Juego de Adivinar Número</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Juego de Adivinar Número</h1>
+  <form id="adivinarForm">
+    <label for="numeroAdivinado">Adivina el número (entre 1 y 100):</label>
+    <input type="number" id="numeroAdivinado" min="1" max="100">
+    <button type="submit" id="adivinarButton">Adivinar</button>
+  </form>
+  <div id="resultado"></div>
+  <div id="intentosAnteriores"></div>
+  <button id="mostrarUltimoRegistroButton">Mostrar Último Registro</button>
+  <button id="reiniciarButton">Reiniciar Juego</button>
+
+
+<div id="nombreJugadorContainer" style="display: none;">
+  <label for="nombreJugador">Ingresa tu nombre:</label>
+  <input type="text" id="nombreJugador" placeholder="Nombre">
+  <button type="button" id="enviarNombreButton">Enviar Nombre</button>
+</div>
+</div>
+  <script src="script.js"></script>
+</body>
+</html>

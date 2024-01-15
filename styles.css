@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url("./assets/fondo.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+    
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1em;
+  }
+  
+  #resultado {
+    margin-top: 20px;
+  }
+  
+  #intentosAnteriores {
+    margin-top: 20px;
+  }
+  
